@@ -9,3 +9,6 @@ function getHumanChoice() {
   const choice = prompt("Rock, paper or scissors? ").toLowerCase();
   return choice;
 }
+
+let computerScore = 0;
+let humanScore = 0;
